@@ -113,3 +113,37 @@
 }
 }
 }
+/* FINAL HERO IMAGE SIZE FIX */
+#home .hero-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr) !important;
+    gap: 30px !important;
+    align-items: center !important;
+}
+
+#home .hero-visual {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+#home .hero-visual img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    border-radius: 18px !important;
+}
+
+@media (max-width: 768px) {
+    #home .hero-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    #home .hero-visual img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
