@@ -37,4 +37,27 @@
     .hero-visual img {
         height: 300px;
     }
+    /* Show the complete hero image without cropping */
+#home .hero-visual {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+#home .hero-visual img {
+    width: 100% !important;
+    height: 450px !important;
+    max-width: none !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    background: #ffffff;
+    border-radius: 18px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #home .hero-visual img {
+        height: auto !important;
+        max-height: 350px;
+    }
+}
 }
