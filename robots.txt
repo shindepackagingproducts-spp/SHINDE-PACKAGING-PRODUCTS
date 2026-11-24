@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shindepackagingproducts-spp.github.io/SHINDE-PACKAGING-PRODUCTS/sitemap.xml
